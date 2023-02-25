@@ -42,12 +42,15 @@
         },
         "HOME_TEXT": {
             "description": "Good Bye Msg"
+            "required": false,
         },
         "START_MSG": {
             "description": "Type Anything You Want"
+            "required": false,
         },
         "START_PHOTO": {
             "description": "Add Your Photo Link"
+            "required": false,
         },
         "DATABASE_URL": {
             "description": "MongoDB Database URI for Saving UserID for Broadcast."
@@ -84,9 +87,11 @@
         },
         "HELP_TEXT": {
             "description": "Type Anything You Want"    
+            "required": false,
         },
         "ABOUT_TEXT": {
             "description": "Type Anything You Want"
+            "required": false,
         },    
         "MDISK_API":{
             "description": "Mdisk API",
@@ -103,7 +108,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
