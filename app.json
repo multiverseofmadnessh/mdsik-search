@@ -54,32 +54,32 @@
         },
         "UPDATES_CHANNEL": {
             "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
-            "required": false
+            "required": "false"
         },
         "CHANNEL_ID": {
             "description": "Channel ID for Searching Messages.",
-            "required": false
+            "required": "false"
         },
         "LOG_CHANNEL": {
             "description": "Log Channel to send bin messages"
         },
         "UPDATES_CHANNEL_USERNAME":{
             "description": "Username of the Channel you entered on UPDATES_CHANNEL without @",
-            "required": false
+            "required": "false"
         },
         "RESULTS_COUNT":{
             "description": "Count of the number of Results",
-            "required": false,
+            "required": "false",
             "value": "20"
         },
         "AUTO_DELETE_TIME":{
             "description": "Auto deletion time in seconds",
-            "required": false,
+            "required": "false",
             "value": "300"
         },
         "FORCE_SUB":{
             "description": "Set to true to force a new subscription",
-            "required": false,
+            "required": "false",
             "value": "False"
         },
         "HELP_TEXT": {
@@ -90,7 +90,7 @@
         },    
         "MDISK_API":{
             "description": "Mdisk API",
-            "required": true,
+            "required": "true",
             "value": ""
         }
 
