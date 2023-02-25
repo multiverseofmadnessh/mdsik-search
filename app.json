@@ -32,7 +32,9 @@
         },
         "BROADCAST_AS_COPY": {
             "description": "Nothing to Put here.",
-            "required": "false"
+            "required": "true",
+            "value": "true"
+            
         },
         "BOT_OWNER": {
             "description": "Bot Owner UserID"
@@ -41,13 +43,16 @@
             "description": "Bot Backup Channel Without @"
         },
         "HOME_TEXT": {
-            "description": "Good Bye Msg"
+            "description": "Good Bye Msg",
+            "required": "false"
         },
         "START_MSG": {
-            "description": "Type Anything You Want"
+            "description": "Type Anything You Want",
+            "required": "false"
         },
         "START_PHOTO": {
-            "description": "Add Your Photo Link"
+            "description": "Add Your Photo Link",
+            "required": "false"
         },
         "DATABASE_URL": {
             "description": "MongoDB Database URI for Saving UserID for Broadcast."
@@ -83,10 +88,12 @@
             "value": "False"
         },
         "HELP_TEXT": {
-            "description": "Type Anything You Want"    
+            "description": "Type Anything You Want",
+            "required": "false"
         },
         "ABOUT_TEXT": {
-            "description": "Type Anything You Want"
+            "description": "Type Anything You Want",
+            "required": "false"
         },    
         "MDISK_API":{
             "description": "Mdisk API",
