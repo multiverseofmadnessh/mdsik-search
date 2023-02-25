@@ -178,10 +178,6 @@ print(f"""
 |_____________________________________________|
     """)
 
-# User.start()
-with tbot, client:
-    tbot.run_until_disconnected()
-    client.run_until_disconnected()
 
 # Loop Clients till Disconnects
 idle()
@@ -190,4 +186,3 @@ idle()
 print()
 print("------------------------ Stopped Services ------------------------")
 Bot.stop()
-# User.stop()
